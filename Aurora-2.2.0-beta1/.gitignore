@@ -1,0 +1,49 @@
+*~
+*.pyc
+__pycache__
+*.so
+#*
+.nfs*
+*/#*
+*/.#*
+
+# Aurora animations
+*.mp4
+
+# Sphinx documentation
+docs/_build/
+
+# PyPI dist
+dist/*
+
+# build info
+build/*
+
+# ADAS files should not be exported
+aurora/adas_data/adf11/*
+aurora/adas_data/adf15/*
+
+# the DEGAS2 ehr5.dat file should not be exported
+ehr5.dat
+
+# don't upload packaging egg-info
+*egg-info/
+
+# Don't upload KN1D source code, available via Github, and temporary KN1D files
+aurora/KN1D
+*.sav
+*.pro
+
+# temporary g-files
+g123456.12345
+
+# various bits and pieces related to functionality and coverage tests
+coverage.xml
+junit
+.coverage
+
+# tex files for amjuel and hydhel
+*.tex
+
+# json databases should not bee shared publicly
+*.json

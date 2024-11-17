@@ -1,0 +1,7 @@
+numpy
+scipy
+matplotlib
+pexpect
+omfit_classes
+requests
+pandas

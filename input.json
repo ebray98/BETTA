@@ -1,0 +1,28 @@
+{
+    "Aurora": {
+
+        "shot": 41275,
+        "diagnostic": "BLB",
+        "timeShot": 4.0,
+        "Impurity": "W",
+        "SourceType": "const",
+        "SourceRate": 0.8e16,
+        "TeovTi": 2.0,
+        "Zeff": 1.3
+    },
+
+    "trview": {
+
+        "baseDir": "/shares/departments/AUG/users/ebray",
+        "shotFileNumber": 41279,
+        "expFileName": "aug41279",
+        "equFileName": "TinCoeff"
+    }, 
+
+    "PostProc": {
+
+        "OutputFileName": "NimpImpostaBckEvo_04.CDF"
+
+    }
+
+}
